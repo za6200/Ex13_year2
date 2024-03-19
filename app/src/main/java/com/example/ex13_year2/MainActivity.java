@@ -19,6 +19,6 @@ public class MainActivity extends AppCompatActivity {
         String[] countries = {"USA", "China", "India", "Brazil", "Russia", "Japan", "Germany"};
         String[] capitals = {"Washington D.C.", "Beijing", "New Delhi", "Brasília", "Moscow", "Tokyo", "Berlin"};
         String[] populations = {"331M", "1441M", "138M", "214M", "146M", "126M", "83M"};
-        ArrayAdapter<String> adp = new ArrayAdapter<String>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, )
+        ArrayAdapter<String> adp = new ArrayAdapter<String>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, R.drawable.Brazil)
     }
 }
